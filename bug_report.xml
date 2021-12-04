@@ -1,0 +1,12 @@
+<Bag_report>
+<title>Status code 500 when a value in the fild of calculator is more than 978</title>
+  <steps_to_reproduce>
+    <step_1>In a field of calculator enter value 1000</step_1>
+    <step_2>Press Enter</step_2>
+  </steps_to_reproduce>
+  <expected_result>A message is displayed about the impossibility to determine the factorial of this number</expected_result>
+  <actual_result>System does not respond, error 500</actual_result>
+  <environment>macOS version 11.6, Google Chrome version 95.0.4638.54</environment>
+  <priority>Medium</priority>
+  <severity>Minor</severity>
+</Bag_report>
